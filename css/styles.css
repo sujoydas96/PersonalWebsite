@@ -1,5 +1,6 @@
 body {
     background-color: #DCD7C9;
+    margin: 0px;
 }
 
 hr {
@@ -51,4 +52,13 @@ table{
 
 td{
     text-align: center;
+}
+
+div.fullpage{
+    height: 100vh;
+}
+
+div.lightcl{
+    height: 100vh;
+    background-color: #bba797;
 }
