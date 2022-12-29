@@ -1,6 +1,5 @@
-body {
+body{
     background-color: #DCD7C9;
-    margin: 0px;
 }
 
 hr {
@@ -54,11 +53,19 @@ td{
     text-align: center;
 }
 
-div.fullpage{
+div{
+    height: 100vh;
+    vertical-align: middle;
+}
+
+div.light{
+    background-color: beige;
     height: 100vh;
 }
 
-div.lightcl{
-    height: 100vh;
-    background-color: #bba797;
+img.profile_picture{
+    width : 25%;
+    border-radius: 100%;
+    box-shadow: inset;
+    
 }
