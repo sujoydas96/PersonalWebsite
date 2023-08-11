@@ -1,59 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>Contact Me</title>
         <meta charset="utf-8">
-        <meta name="description" content="Contact Details for Sujoy Das">
-        <meta name="keywords" content="Contact information, Sujoy Das, Github, Email, Twitter, LinkedIn">
+        <meta name="description" content="Hi I am Sujoy and you can contact me from here!!">
+        <meta name="keywords" content="IOS development, IOS developer, Web developer, Web development, Andriod developer, Andriod development, website designer, graphic design">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Sujoy Das">
-        <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
-        <h1>Contact Details</h1>
-        <hr>
-        <ul>
-            <li><a href="">LinkedIn</a></li>     <!-- add all the links to the anchors-->
-            <li><a href="">Github</a></li>
-            <li><a href="">Gmail</a></li>
-        </ul>
-        <hr>
-        <h3>Contact Me!</h3>
-        <form action="mailto:mailfor.sujoyd@gmail.com" method="post" enctype="text/plain">
-            <table>
-                <thead></thead>
-
-                <tbody>
-                    <tr>
-                        <td><label for="">Your Name:</label></td>
-                        <td><input type="text" name="Name " id=""></td>
-                    </tr>
-
-                    <tr>
-                        <td><label for="">Your Email:</label></td>
-                        <td><input type="email" name="Mail " id=""></td>
-                    </tr>
-
-                    <tr>
-                        <td><label for="">Tell Me Something</label></td>
-                        <td><textarea name="name" id="Text " cols="30" rows="10"></textarea></td>
-                    </tr>
-
-                    <tr>
-                        <td><label for="">Signup to my mailing list</label></td>
-                        <td><input type="checkbox" name="list " id=""></td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <input type="submit">
-                        </td>
-                    </tr>
-                </tbody>
-
-                <tfoot></tfoot>
-            </table>
-        </form>
-        <hr>
+        <!--create a contact form -->
+        <h1>Contact Me!</h1>
+        <div>
+            <form action="mailto:mailfor.sujoyd@gmail.com" method="post" enctype="text/plain">
+                <table>
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <td>Your Name:</td>
+                            <td><input type="text" name="Name " id=""></td>
+                        </tr>
+                        <tr>
+                            <td>Your Email:</td>
+                            <td><input type="text" name="Email " id=""></td>
+                        </tr>
+                        <tr>
+                            <td>Tell me about your problem:</td>
+                            <td><textarea name="Query " id="" cols="30" rows="10"></textarea></td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </form>
+        </div>
     </body>
 </html>
